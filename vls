@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --rm -ti -v=$1:/$1 busybox ls -la $1

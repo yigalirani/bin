@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -ti -p "80:80" --read-only -v root_volume:/root -v /${PWD}:/work -w//work node:carbon-jessie-slim npm start
