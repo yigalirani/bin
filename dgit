@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it --entrypoint sh -v git:/git -v git_root:/root --read-only alpine/git
