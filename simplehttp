@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -ti  -v $PWD:/pwd -p 80:8000 -w /pwd python:alpine python3 -m http.server
